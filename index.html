@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Image Gallery</h1>
+
+    <div class="gallery">
+  <div class="image" data-category="nature">
+    <img src="https://picsum.photos/id/1015/400/300" alt="Nature" />
+  </div>
+  <div class="image" data-category="nature">
+    <img src="https://picsum.photos/id/1035/400/300" alt="Nature" />
+  </div>
+  <div class="image" data-category="city">
+    <img src="https://picsum.photos/id/1045/400/300" alt="City" />
+  </div>
+  <div class="image" data-category="nature">
+    <img src="https://picsum.photos/id/1065/400/300" alt="Nature" />
+  </div>
+</div>
+  <div class="lightbox" id="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" id="lightbox-img" src="" />
+    <div class="nav">
+      <button id="prev">&#10094;</button>
+      <button id="next">&#10095;</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
